@@ -1,0 +1,21 @@
+.hamburger {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: end;
+  cursor: pointer;
+  &__page {
+    right: 20px;
+    top: 30px;
+  }
+  &__line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #151812;
+    &_long {
+      width: 36px;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: minmax(302px, 400px) minmax(300px, 1fr);
+  grid-template-rows: minmax(245px, auto) minmax(255px, auto);
+  grid-auto-rows: minmax(245px, auto);
+  gap: 40px 70px;
+}

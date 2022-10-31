@@ -1,0 +1,36 @@
+.header {
+  min-height: 100vh;
+  position: relative;
+  background: url(../img/main_bg.jpg) no-repeat 50%/cover;
+
+  &__title {
+    display: block;
+    max-width: 532px;
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.25;
+    color: #000000;
+  }
+
+  &__link {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+    text-align: center;
+    &:hover {
+      color: #000000;
+      text-decoration: none;
+    }
+  }
+
+  &__btns {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 44px;
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,15 @@
+.price-list {
+  &__title {
+  text-align: center;
+  }
+
+  &__grid-container {
+    padding: 0 50px;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 366px));
+    // grid-template-rows: repeat(auto-fit, minmax(44xp, auto));
+    justify-content: space-between;
+    row-gap: 15px;
+  }
+}

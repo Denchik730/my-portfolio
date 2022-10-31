@@ -1,0 +1,11 @@
+.button {
+  background: $main-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 12px 26px 12px 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_place_header {
+    height: 45px;
+  }
+}

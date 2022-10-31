@@ -1,0 +1,47 @@
+.contacts {
+  &__grid-container {
+    display: grid;
+    grid-template-columns: 400px minmax(300px, 1fr);
+    grid-template-rows: minmax(245px, auto);
+    grid-auto-rows: minmax(600px, auto);
+    gap: 70px;
+  }
+
+  &__photo {
+    background-image: url(../img/my-photo.jpg);
+    background-size: cover;
+    background-position: left top;
+  }
+
+  &__way {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    /* identical to box height */
+
+
+    color: #000000;
+  }
+
+  &__social {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+
+  &__link {
+    width: 30px;
+    height: 30px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__form {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,33 @@
+.card-sale {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  // grid-template-rows: repeat(auto-fit, minmax(21px, auto));
+  row-gap: 5px;
+  @include before_circle;
+  &:before {
+    width: 15px;
+    height: 15px;
+    left: -35px;
+    top: 2px;
+  }
+
+  &__descr {
+    grid-column: 1/3;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000000;
+  }
+  &__price {
+    justify-self: end;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+  }
+}

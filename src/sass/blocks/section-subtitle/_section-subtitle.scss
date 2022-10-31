@@ -1,0 +1,26 @@
+.section-subtitle {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  z-index: 2;
+  &_left_circle {
+    margin-top: 6px;
+    padding-left: 12px;
+    position: relative;
+    @include before_circle;
+  }
+  &_center_circle {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    @include before_circle;
+    &::before {
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
