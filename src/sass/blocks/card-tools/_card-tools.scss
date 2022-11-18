@@ -4,6 +4,14 @@
   grid-template-rows: repeat(auto-fit, minmax(270px, 1fr));
   gap: 13px;
 
+  @media (max-width: 1280px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 710px) {
+    gap: 20px;
+  }
+
   &__item {
     max-width: 270px;
     min-height: 270px;
@@ -14,6 +22,10 @@
   &_place_ability {
     margin-top: 60px;
     padding: 0px 10px 0px 10px;
+
+    @media (max-width: 710px) {
+      margin-top: 20px;
+    }
   }
 
   &__icon {

@@ -2,12 +2,22 @@
   font-family: 'Inter', Arial, sans-serif;
   margin: 0 ;
   padding: 0;
+
+
+
   &__about-me {
     margin-top: 120px;
+
+    @media (max-width: 984px) {
+      margin-top: 60px;
+    }
+
+    @media (max-width: 710px) {
+      margin-top: 40px;
+    }
   }
   &__header {
     padding-top: 205px;
-
   }
 
 

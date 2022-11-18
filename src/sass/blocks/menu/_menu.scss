@@ -26,6 +26,10 @@
     background-color: $main-color;
     z-index: 10;
     transition: all .6s;
+    @media (max-width: 576px) {
+      width: 250px;
+      padding-left: 20px;
+    }
   }
 
   &__list {
@@ -84,9 +88,15 @@
 
   &__close {
     position: absolute;
-    right: 25px;
+    right: 24px;
     top: 25px;
     cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    outline: transparent;
+    &:active {
+      outline: transparent;
+    }
   }
 
 

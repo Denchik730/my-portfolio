@@ -5,6 +5,16 @@
   color: #000000;
   margin-top: 0;
   margin-bottom: 0;
+
+  @media (max-width: 984px) {
+    font-size: 30px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 24px;
+  }
+
+
   &_place_card {
     font-size: 14px;
     line-height: 1.5;

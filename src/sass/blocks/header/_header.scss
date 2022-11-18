@@ -7,10 +7,35 @@
     display: block;
     max-width: 532px;
     margin-top: 9px;
+    margin-bottom: 0;
     font-weight: 700;
     font-size: 48px;
     line-height: 1.25;
     color: #000000;
+
+
+    @media (max-width: 1124px) {
+      font-size: 40px;
+
+    }
+
+    @media (max-width: 984px) {
+      font-size: 36px;
+    }
+
+    @media (max-width: 710px) {
+      font-size: 32px;
+      max-width: 400px;
+
+    }
+
+    @media (max-width: 576px) {
+      font-size: 26px;
+    }
+
+    @media (max-width: 425px) {
+      max-width: 280px;
+    }
   }
 
   &__link {
@@ -31,6 +56,10 @@
     justify-content: flex-start;
     gap: 44px;
     align-items: center;
+
+    @media (max-width: 576px) {
+      margin-top: 32px;
+    }
   }
 }
 

@@ -4,8 +4,18 @@
   background-color: $main-color;
   &_page_center {
     margin: 25px auto 0 auto;
+
+    @media (max-width: 425px) {
+      margin-top: 15px;
+    }
   }
   &_page_left {
     margin-top: 4px;
+
+
+    @media (max-width: 710px) {
+      margin-top: 15px;
+
+    }
   }
 }
